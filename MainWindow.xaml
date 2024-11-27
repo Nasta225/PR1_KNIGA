@@ -1,0 +1,19 @@
+﻿<Window x:Class="PR1_KNIGA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR1_KNIGA"
+        mc:Ignorable="d"
+        Title="vxod" Height="450" Width="800">
+    <Grid Background="CornflowerBlue">
+        <Canvas>
+            <TextBox x:Name="Login1" Style="{StaticResource textBox1}" Text="" Canvas.Left="330" Canvas.Top="140" Height="47" Width="285" FontSize="30"/>
+            <Label Content="Авторизация" Style="{StaticResource Label1}" Canvas.Left="227" Canvas.Top="21" FontSize="50" Height="71" Width="402"/>
+            <Label Content="Введите логин" Style="{StaticResource Label1}" Canvas.Left="52" Canvas.Top="137"/>
+            <Label Content="Введите пароль" Style="{StaticResource Label1}" Canvas.Left="51" Canvas.Top="207"/>
+            <TextBox  x:Name="Password1" Text="" Width="285" FontSize="30" Style="{StaticResource textBox1}" Canvas.Left="328" Canvas.Top="212" Height="49"  />
+            <Button x:Name="But1" Style="{StaticResource But2}" Canvas.Left="290" Canvas.Top="332" Content="Войти" Click="But1_Click_1"/>
+        </Canvas>
+    </Grid>
+</Window>
